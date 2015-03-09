@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="209.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fundefs.codefixer.Controller">
+   <children>
+      <Button fx:id="btnFile" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onPressFileSelect" text="Input Folder" />
+      <TextField fx:id="txtFile" editable="false" layoutX="108.0" layoutY="14.0" prefHeight="25.0" prefWidth="278.0" promptText="No Folder Selected" />
+      <TextArea fx:id="txtOutput" editable="false" layoutX="14.0" layoutY="45.0" mouseTransparent="true" prefHeight="100.0" prefWidth="372.0" />
+      <Button fx:id="btnStart" layoutX="14.0" layoutY="160.0" mnemonicParsing="false" onAction="#onPressStart" text="Start Fixing Code" />
+   </children>
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+</Pane>
